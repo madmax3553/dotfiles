@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/mnt/c/Users/BoulianeJ'
+let g:netrw_dirhist_4='/home/groot/.config'
+let g:netrw_dirhist_3='/home/groot'
+let g:netrw_dirhist_2='/home/groot/.vim'
+let g:netrw_dirhist_1='/home/groot'
