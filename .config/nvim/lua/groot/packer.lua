@@ -44,6 +44,14 @@ return require('packer').startup(function(use)
 		})
 	end,
 }
+use {
+  "nvim-neorg/neorg",
+  rocks = { "lua-utils.nvim", "nvim-nio", "nui.nvim", "plenary.nvim", "pathlib.nvim" },
+  tag = "*", -- Pin Neorg to the latest stable release
+  config = function()
+      require("neorg").setup()
+  end,
+}
   use { 'nvimdev/dashboard-nvim',
   event = 'VimEnter',
   config = function()

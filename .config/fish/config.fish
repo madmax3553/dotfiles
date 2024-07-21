@@ -6,6 +6,8 @@ if status is-interactive
     function fish_greeting
         neofetch|lolcat
     end
+    #if $(date 
+    #    ./update sh
 end
 
 function _z_cd
