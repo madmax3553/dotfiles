@@ -56,3 +56,6 @@ function _zoxide_hook --on-variable PWD
     zoxide add (pwd -L)
 end
 
+
+# Created by `pipx` on 2024-08-18 17:38:13
+set PATH $PATH /home/groot/.local/bin
