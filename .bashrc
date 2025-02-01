@@ -84,6 +84,17 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
+# Add distro detection
+function get_distro() {
+    if [ -f /etc/os-release ]; then
+        source /etc/os-release
+        echo "$NAME"
+    else
+        echo "Unknown"
+    fi
+}
+export STARSHIP_DISTRO="$(get_distro)"
+
 # colored GCC warnings and errors
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
@@ -92,6 +103,9 @@ alias ls='exa -lah'
 alias ll='exa -alF'
 alias la='exa -A'
 alias l='exa -CF'
+alias cat='bat'
+alias grep='rg'
+alias mc='mc -X'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -117,7 +131,7 @@ if ! shopt -oq posix; then
   fi
 fi
 # Starship
-eval "$(starship init bash)"
+eval -- "$(/usr/sbin/starship init bash --print-full-init)"
 
 # Zoxide
 eval "$(zoxide init bash)"
