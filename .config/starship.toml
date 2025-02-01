@@ -17,6 +17,10 @@ format = '[$env_value](bold white) '
 variable = "STARSHIP_DISTRO"
 disabled = false
 
+# Explicitly disable container module
+[container]
+disabled = true
+
 # Shows the current username
 [env_var.USER]
 format = '[$env_value](bold white) '

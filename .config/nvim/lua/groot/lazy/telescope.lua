@@ -1,7 +1,7 @@
 return {
     "nvim-telescope/telescope.nvim",
 
-    tag = "0.1.5",
+    tag = "0.1.8",
 
     dependencies = {
         "nvim-lua/plenary.nvim"
@@ -15,6 +15,16 @@ return {
                     '--line-number',
                     '--smart-case',
                     '--hidden',
+                },
+                file_ignore_patterns = {
+                    "%.git/"
+                },  -- Ignore .git directory
+                find_command = {
+                    "rg",
+                    "--files",
+                    "--hidden",
+                    "--glob",
+                    "!.git/*"
                 },
             }
         })

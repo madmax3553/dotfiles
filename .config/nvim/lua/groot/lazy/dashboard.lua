@@ -1,4 +1,4 @@
-return {
+retu{rn {
     {
         'nvimdev/dashboard-nvim',
         event = 'VimEnter',
@@ -20,15 +20,15 @@ return {
                             key = 'f',
                         },
                         {
-                            desc = ' Apps',
+                            desc = ' Recents',
                             group = 'DiagnosticHint',
-                            action = 'Telescope app',
-                            key = 'a',
+                            action = 'Telescope oldfiles',
+                            key = 'r',
                         },
                         {
                             desc = ' dotfiles',
                             group = 'Number',
-                            action = 'Telescope dotfiles',
+                            action = 'Telescope find_files cwd=~/.config',
                             key = 'd',
                         },
                     },
