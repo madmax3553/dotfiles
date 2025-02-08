@@ -3,3 +3,5 @@
 	name = madmax3553
 [push]
 	autoSetupRemote = true
+[credential]
+	helper = manager
