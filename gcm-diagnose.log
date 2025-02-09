@@ -1,0 +1,158 @@
+﻿Diagnose log at 2025-02-08T21:39:21Z
+
+AppPath: /usr/sbin/git-credential-manager
+InstallDir: /usr/lib/share/git-credential-manager/
+Version: 2.6.1+cfde1f3f2d4294d4e690a9b80ed9502692c96860
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Linux
+OSVersion: Arch Linux
+Reading environment variables... OK
+ Variables:
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+NAME=CND3141G12
+WT_SESSION=1e2c8c52-7acf-4bf0-967f-1bcee36bab94
+STARSHIP_SESSION_KEY=5087223361133118
+TMUX_PANE=%1
+PWD=/home/groot/dotfiles
+WSL_INTEROP=/run/WSL/163_interop
+HOSTTYPE=x86_64
+TERM=tmux-256color
+WSL2_GUI_APPS_ENABLED=1
+PULSE_SERVER=unix:/mnt/wslg/PulseServer
+TERM_PROGRAM_VERSION=3.5a
+STARSHIP_SHELL=bash
+DISPLAY=:0
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+USER=groot
+WSL_DISTRO_NAME=Arch
+SHLVL=2
+TERM_PROGRAM=tmux
+LANG=en_US.UTF-8
+SHELL=/usr/bin/bash
+GIT_TRACE2_PARENT_SID=012671a3-ce9b-43af-81b4-ebc1a01b547a
+OLDPWD=/home/groot
+XDG_RUNTIME_DIR=/run/user/1000/
+DEBUGINFOD_URLS=https://debuginfod.archlinux.org 
+_=/usr/sbin/git-credential-manager
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Program Files/starship/bin/:/mnt/c/Program Files/Neovim/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/BoulianeJ/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/BoulianeJ/AppData/Local/Microsoft/WinGet/Packages/JesseDuffield.lazygit_Microsoft.Winget.Source_8wekyb3d8bbwe:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+WT_PROFILE_ID={a5a97cb8-8961-5535-816d-772efe0c6a3f}
+LOGNAME=groot
+HOME=/home/groot
+WSLENV=WT_SESSION:WT_PROFILE_ID:
+STARSHIP_DISTRO=Arch Linux
+WAYLAND_DISPLAY=wayland-0
+TMUX=/tmp/tmux-1000/default,314,0
+TMUX_PLUGIN_MANAGER_PATH=/home/groot/.tmux/plugins/
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/tmp/'...
+Checking basic file I/O...
+Writing to temporary file '/tmp/d8a94eac90e02b8e0f3e5c8d'... OK
+Reading from temporary file '/tmp/d8a94eac90e02b8e0f3e5c8d'... OK
+Deleting temporary file '/tmp/d8a94eac90e02b8e0f3e5c8d'... OK
+Testing IFileSystem instance...
+UserHomePath: /home/groot
+UserDataDirectoryPath: /home/groot/.gcm
+GetCurrentDirectory(): /home/groot/dotfiles
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:39457/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.48.1'
+Locating current repository...Git repository at '/home/groot/dotfiles/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:/home/groot/.gitconfig	user.email=jeanpaul.bouliane@gmail.com
+file:/home/groot/.gitconfig	user.name=madmax3553
+file:/home/groot/.gitconfig	push.autosetupremote=true
+file:/home/groot/.gitconfig	credential.helper=manager
+file:/home/groot/.gitconfig	credential.credentialstore=cache
+file:/home/groot/.gitconfig	credential.helper=
+file:/home/groot/.gitconfig	credential.helper=/usr/sbin/git-credential-manager
+file:/home/groot/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/madmax3553/dotfiles.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.master.remote=origin
+file:.git/config	branch.master.merge=refs/heads/master
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /home/groot/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /home/groot/.local/.IdentityService/msal.cache
+KeyringCollection: 
+KeyringSchemaName: 
+KeyringSecretLabel: 
+KeyringAttribute1: (,)
+KeyringAttribute2: (,)
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
