@@ -135,3 +135,6 @@ eval -- "$(/usr/sbin/starship init bash --print-full-init)"
 
 # Zoxide
 eval "$(zoxide init bash)"
+
+#FastFetch
+fastfetch
