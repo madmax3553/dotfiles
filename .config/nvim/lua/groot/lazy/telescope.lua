@@ -8,26 +8,7 @@ return {
     },
 
     config = function()
-        require('telescope').setup({
-            defaults = {
-                vimgrep_arguments = {
-                    'rg',
-                    '--line-number',
-                    '--smart-case',
-                    '--hidden',
-                },
-                file_ignore_patterns = {
-                    "%.git/"
-                },  -- Ignore .git directory
-                find_command = {
-                    "rg",
-                    "--files",
-                    "--hidden",
-                    "--glob",
-                    "!.git/*"
-                },
-            }
-        })
+        require('telescope').setup({})
         -- find_files = {hidden = true}
         local builtin = require('telescope.builtin')
         vim.keymap.set('n', '<leader>pf', builtin.find_files, {})

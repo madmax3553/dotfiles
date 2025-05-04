@@ -95,8 +95,16 @@ function get_distro() {
 }
 export STARSHIP_DISTRO="$(get_distro)"
 
+# Set the default editor to NVIM
+export EDITOR='nvim'
+export VISUAL='nvim'
+export WINE_BACKEND='wayland'
+export WLR_RENDERER='vulkan'
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
+
 # colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
 alias ls='exa -lah'
@@ -106,6 +114,7 @@ alias l='exa -CF'
 alias cat='bat'
 alias grep='rg'
 alias mc='mc -X'
+alias lz='lazygit'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -135,6 +144,15 @@ eval -- "$(/usr/sbin/starship init bash --print-full-init)"
 
 # Zoxide
 eval "$(zoxide init bash)"
+
+# Fuzzy Finder
+[ -f /usr/share/fzf/key-bindings.bash ] && source /usr/share/fzf/key-bindings.bash
+[ -f /usr/share/fzf/completion.bash ] && source /usr/share/fzf/completion.bash
+
+# FZF Rust integration
+alias frs='find . -type f -name "*.rs" | fzf --preview "bat --color=always {}" | xargs nvim'
+alias fxls='find . -type f -name "*.xlsx" | fzf --preview "xlsx2csv {} | head -n 10" | xargs cargo run -- --file'
+alias fcb='cargo build -- $(find src -type f -name "*.rs" | fzf --preview "bat --color=always {}")'
 
 #FastFetch
 fastfetch
