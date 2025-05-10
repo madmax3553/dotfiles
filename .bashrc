@@ -145,9 +145,15 @@ eval -- "$(/usr/sbin/starship init bash --print-full-init)"
 # Zoxide
 eval "$(zoxide init bash)"
 
+# vifm
+export VIFM="$HOME/.config/vifm"
+alias v='vifm'
+alias vcd='vifmcd'
+
 # Fuzzy Finder
 [ -f /usr/share/fzf/key-bindings.bash ] && source /usr/share/fzf/key-bindings.bash
 [ -f /usr/share/fzf/completion.bash ] && source /usr/share/fzf/completion.bash
+export FZF_DEFAULT_OPTS='--tiebreak=index --preview "bat --color=always --style=numbers {}" --preview-window=right:50%'
 
 # FZF Rust integration
 alias frs='find . -type f -name "*.rs" | fzf --preview "bat --color=always {}" | xargs nvim'
@@ -156,3 +162,6 @@ alias fcb='cargo build -- $(find src -type f -name "*.rs" | fzf --preview "bat -
 
 #FastFetch
 fastfetch
+
+# Dysk
+dysk
