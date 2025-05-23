@@ -1,0 +1,10 @@
+# yazi.toml
+[manager]
+show_hidden = true
+linemode = "permissions"
+show_symlink = true
+show_size = true
+
+[input]
+cursor_blink = true
+
