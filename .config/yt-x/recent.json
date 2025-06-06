@@ -67,6 +67,40 @@
       "live_status": null,
       "channel_is_verified": true,
       "__x_forwarded_for_ip": null
+    },
+    {
+      "_type": "url",
+      "ie_key": "Youtube",
+      "id": "GtsKevzR3-I",
+      "url": "https://www.youtube.com/watch?v=GtsKevzR3-I",
+      "title": "Night Drive 1980–1989 – A Decade of Synthwave Roads",
+      "description": "From the first synth pulse of 1980 to the final midnight cruise of 1989, Night Drive 1980–1989 captures an entire decade of retro-futuristic motion. This playlist is a synthwave tribute to...",
+      "duration": 5907.0,
+      "channel_id": "UCY790VmPJmywJt4WjKVr-xg",
+      "channel": "RetroWaveRadio",
+      "channel_url": "https://www.youtube.com/channel/UCY790VmPJmywJt4WjKVr-xg",
+      "uploader": "RetroWaveRadio",
+      "uploader_id": "@RetroWaveRadio85",
+      "uploader_url": "https://www.youtube.com/@RetroWaveRadio85",
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/GtsKevzR3-I/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgwIEsofzAP&rs=AOn4CLAf81WiEosMs5m1qIdZPAuHibG-Ww",
+          "height": 202,
+          "width": 360
+        },
+        {
+          "url": "https://i.ytimg.com/vi/GtsKevzR3-I/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARgwIEsofzAP&rs=AOn4CLCgRM17oMOZDulsGeFZp_RG_H2K4g",
+          "height": 404,
+          "width": 720
+        }
+      ],
+      "timestamp": 1746576000,
+      "release_timestamp": null,
+      "availability": null,
+      "view_count": 5157,
+      "live_status": null,
+      "channel_is_verified": null,
+      "__x_forwarded_for_ip": null
     }
   ]
 }

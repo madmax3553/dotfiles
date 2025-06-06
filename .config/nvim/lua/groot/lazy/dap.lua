@@ -4,7 +4,7 @@ return {
 		lazy = true,
 		config = function()
 			require('dap').defaults.fallback.external_terminal = {
-				command = 'usr/bin/ghostty',
+				command = '/usr/bin/ghostty',
 			}
 		end,
 		keys = {
