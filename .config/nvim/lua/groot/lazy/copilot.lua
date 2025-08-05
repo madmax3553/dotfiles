@@ -6,23 +6,23 @@ return {
 	--   -- vim.g.copilot_no_tab_map = true  -- Prevents copilot from mapping tab by default
 	-- end,
 	{
-		'zbirenbaum/copilot.lua',
-		cmd = 'Copilot',
-		event = { 'BufReadPost', 'BufNewFile' },
+		"zbirenbaum/copilot.lua",
+		cmd = "Copilot",
+		event = { "BufReadPost", "BufNewFile" },
 		config = function()
-			require('copilot').setup({
+			require("copilot").setup({
 				suggestion = {
 					enabled = true,
 					auto_trigger = true,
 					keymap = {
-						accept = '<C-l>', -- Replace with your preferred key
-						next = '<C-j>',
-						prev = '<C-k>',
-						dismiss = '<C-h>',
+						accept = "<tab>", -- Replace with your preferred key
+						next = "<C-j>",
+						prev = "<C-k>",
+						dismiss = "<C-h>",
 					},
 				},
 				filetypes = {
-					['*'] = true, -- Enable for all filetypes, adjust as needed
+					["*"] = true, -- Enable for all filetypes, adjust as needed
 					go = true, -- Explicitly enable for Go
 				},
 				server_opts_overrides = {
@@ -36,16 +36,16 @@ return {
 		end,
 	},
 	{
-		'CopilotC-Nvim/CopilotChat.nvim',
-		branch = 'main',
+		"CopilotC-Nvim/CopilotChat.nvim",
+		branch = "main",
 		dependencies = {
-			{ 'zbirenbaum/copilot.lua' },
-			{ 'nvim-lua/plenary.nvim' },
+			{ "zbirenbaum/copilot.lua" },
+			{ "nvim-lua/plenary.nvim" },
 		},
 		config = function()
-			require('CopilotChat').setup({
+			require("CopilotChat").setup({
 				window = {
-					layout = 'float', -- Floating window for chat
+					layout = "float", -- Floating window for chat
 					width = 0.8,
 					height = 0.8,
 				},

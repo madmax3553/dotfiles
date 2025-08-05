@@ -1,0 +1,173 @@
+@import "./wallust/colors-waybar.css";
+
+* {
+  font-family: Hack Nerd Font;
+  font-size: 15px;
+  min-height: 15px;
+  min-width: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  margin-top: 1px;
+  border-radius: 15px;
+}
+
+#waybar {
+  background: transparent;
+  color: @foreground;
+}
+/* background */
+#custom-wallpaper,
+#workspaces,
+#mpris,
+#clock,
+#custom-swaync,
+#pulseaudio,
+#backlight,
+#battery,
+#network,
+#cpu,
+#memory,
+#tray,
+#custom-lock{
+  background: @background;
+}
+
+/* borders */
+#custom-wallpaper,
+#workspaces,
+#mpris,
+#clock,
+#custom-swaync,
+#tray,
+#custom-lock{
+  border: 1px solid @accent;
+}
+
+#custom-wallpaper {
+  color: @accent;
+  transition: all 0.3s ease;
+  padding-right: 15px;
+}
+
+#custom-wallpaper:hover {
+  background: @foreground;
+  color: @background;
+}
+
+#workspaces {
+  margin-left: 5px;
+}
+
+#workspaces button {
+  color: @color7;
+}
+
+#workspaces button.active {
+  color: @color6;
+}
+
+#workspaces button:hover {
+  color: @color5;
+}
+
+#clock {
+  color: @color2;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid @accent;
+}
+
+#waybar-tooltip.calendar {
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid @accent;
+}
+
+#custom-swaync {
+  background-color: @background;
+  color: @color7;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid @accent;
+}
+#custom-swaync.dnd {
+  color: #ff1744;
+}
+#custom-notification.has-notifs {
+  color: #00ff00;
+}
+#custom-notification.no-notifs {
+  color: @color7;
+}
+
+#pulseaudio {
+  color: @color8;
+  padding-left: 20px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#backlight {
+  color: @color10;
+  border-radius: 0px;
+}
+
+#battery {
+  color: @color3;
+  border-radius: 0px;
+}
+
+#battery.charging {
+  color: #00ff00;
+}
+
+#battery.warning:not(.charging) {
+  color: @color8;
+}
+
+#network {
+  color: #00ff00; /* Green color for connected state */
+  transition: all 0.3s ease;
+  border-radius: 0px 15px 15px 0px;
+}
+
+#network.disconnected {
+  color: #ff1744; /* Red color for disconnected state */
+}
+
+#network:hover {
+  background: @foreground;
+  color: @background;
+  border-radius: 15px;
+}
+
+#cpu {
+  color: @color4;
+  border-radius: 15px 0px 0px 15px;
+}
+
+#memory {
+  color: @color9;
+  border-radius: 0px 15px 15px 0px;
+}
+#tray {
+  color: @color1;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+#custom-lock {
+  color: @color7;
+  padding: 10px;
+  padding-right: 12px;
+}
+
+#tooltip {
+  background: @background;
+  color: @foreground;
+  border: 1px solid @accent;
+}
